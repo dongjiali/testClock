@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120EDB1D17C1A51E008A918D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120EDB1B17C1A51E008A918D /* WebViewController.m */; };
+		120EDB1E17C1A51E008A918D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120EDB1C17C1A51E008A918D /* WebViewController.xib */; };
+		120EDB2017C1A562008A918D /* OpenGL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 120EDB1F17C1A562008A918D /* OpenGL.pdf */; };
+		1210FD8C17BCB989002EE45B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1210FD8B17BCB989002EE45B /* QuartzCore.framework */; };
+		1213097517C1EB2A009105F8 /* pptname1.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 1213097417C1EB2A009105F8 /* pptname1.ppt */; };
+		1214A2A017C35BC7008CE01D /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1214A29F17C35BC7008CE01D /* Utils.m */; };
+		9E2C0B8F17741F3300493AAA /* RpeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C0B8D17741F3300493AAA /* RpeatViewController.m */; };
+		9E2C0B9017741F3300493AAA /* RpeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C0B8E17741F3300493AAA /* RpeatViewController.xib */; };
+		9E2C0B93177434B400493AAA /* btn_fanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C0B92177434B400493AAA /* btn_fanhui.png */; };
+		9E2D74031776CC57009B53D6 /* ClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D74021776CC57009B53D6 /* ClockModel.m */; };
+		9E2D74061776E2BA009B53D6 /* RootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D74051776E2BA009B53D6 /* RootCell.m */; };
+		9E2D74101776F227009B53D6 /* btn_naozhong.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D74081776F227009B53D6 /* btn_naozhong.png */; };
+		9E2D74111776F227009B53D6 /* btn_naozhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D74091776F227009B53D6 /* btn_naozhong@2x.png */; };
+		9E2D74121776F227009B53D6 /* btn_quxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D740A1776F227009B53D6 /* btn_quxiao.png */; };
+		9E2D74131776F227009B53D6 /* btn_quxiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D740B1776F227009B53D6 /* btn_quxiao@2x.png */; };
+		9E2D74141776F227009B53D6 /* btn_tianjia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D740C1776F227009B53D6 /* btn_tianjia.png */; };
+		9E2D74151776F227009B53D6 /* btn_tianjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D740D1776F227009B53D6 /* btn_tianjia@2x.png */; };
+		9E2D74161776F227009B53D6 /* btn_wancheng.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D740E1776F227009B53D6 /* btn_wancheng.png */; };
+		9E2D74171776F227009B53D6 /* btn_wancheng@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D740F1776F227009B53D6 /* btn_wancheng@2x.png */; };
+		9E2D741A1776F2BD009B53D6 /* btn_back_leftBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D74181776F2BD009B53D6 /* btn_back_leftBack.png */; };
+		9E2D741B1776F2BD009B53D6 /* btn_back_leftBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D74191776F2BD009B53D6 /* btn_back_leftBack@2x.png */; };
 		9E61172117717BDA00E9F2B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E61172017717BDA00E9F2B2 /* UIKit.framework */; };
 		9E61172317717BDA00E9F2B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E61172217717BDA00E9F2B2 /* Foundation.framework */; };
 		9E61172517717BDA00E9F2B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E61172417717BDA00E9F2B2 /* CoreGraphics.framework */; };
@@ -16,9 +37,45 @@
 		9E61173317717BDA00E9F2B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E61173217717BDA00E9F2B2 /* Default.png */; };
 		9E61173517717BDA00E9F2B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E61173417717BDA00E9F2B2 /* Default@2x.png */; };
 		9E61173717717BDA00E9F2B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E61173617717BDA00E9F2B2 /* Default-568h@2x.png */; };
+		9E61174017717D4100E9F2B2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E61173E17717D4100E9F2B2 /* RootViewController.m */; };
+		9E61174117717D4100E9F2B2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E61173F17717D4100E9F2B2 /* RootViewController.xib */; };
+		9E6117451771805900E9F2B2 /* SetClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6117431771805900E9F2B2 /* SetClockViewController.m */; };
+		9E6117461771805900E9F2B2 /* SetClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E6117441771805900E9F2B2 /* SetClockViewController.xib */; };
+		9E9B6BFC1775C53500EA7319 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9B6BF31775C53500EA7319 /* FMDatabase.m */; };
+		9E9B6BFD1775C53500EA7319 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9B6BF51775C53500EA7319 /* FMDatabaseAdditions.m */; };
+		9E9B6BFE1775C53500EA7319 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9B6BF71775C53500EA7319 /* FMDatabasePool.m */; };
+		9E9B6BFF1775C53500EA7319 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9B6BF91775C53500EA7319 /* FMDatabaseQueue.m */; };
+		9E9B6C001775C53500EA7319 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9B6BFB1775C53500EA7319 /* FMResultSet.m */; };
+		9E9B6C021775C55E00EA7319 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9B6C011775C55E00EA7319 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120EDB1A17C1A51E008A918D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		120EDB1B17C1A51E008A918D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		120EDB1C17C1A51E008A918D /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		120EDB1F17C1A562008A918D /* OpenGL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = OpenGL.pdf; sourceTree = "<group>"; };
+		1210FD8B17BCB989002EE45B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1213097417C1EB2A009105F8 /* pptname1.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = pptname1.ppt; sourceTree = "<group>"; };
+		1214A29E17C35BC7008CE01D /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		1214A29F17C35BC7008CE01D /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		9E2C0B8C17741F3300493AAA /* RpeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RpeatViewController.h; sourceTree = "<group>"; };
+		9E2C0B8D17741F3300493AAA /* RpeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RpeatViewController.m; sourceTree = "<group>"; };
+		9E2C0B8E17741F3300493AAA /* RpeatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RpeatViewController.xib; sourceTree = "<group>"; };
+		9E2C0B92177434B400493AAA /* btn_fanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_fanhui.png; sourceTree = "<group>"; };
+		9E2D74011776CC56009B53D6 /* ClockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockModel.h; sourceTree = "<group>"; };
+		9E2D74021776CC57009B53D6 /* ClockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockModel.m; sourceTree = "<group>"; };
+		9E2D74041776E2BA009B53D6 /* RootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCell.h; sourceTree = "<group>"; };
+		9E2D74051776E2BA009B53D6 /* RootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCell.m; sourceTree = "<group>"; };
+		9E2D74081776F227009B53D6 /* btn_naozhong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_naozhong.png; sourceTree = "<group>"; };
+		9E2D74091776F227009B53D6 /* btn_naozhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_naozhong@2x.png"; sourceTree = "<group>"; };
+		9E2D740A1776F227009B53D6 /* btn_quxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_quxiao.png; sourceTree = "<group>"; };
+		9E2D740B1776F227009B53D6 /* btn_quxiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_quxiao@2x.png"; sourceTree = "<group>"; };
+		9E2D740C1776F227009B53D6 /* btn_tianjia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_tianjia.png; sourceTree = "<group>"; };
+		9E2D740D1776F227009B53D6 /* btn_tianjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_tianjia@2x.png"; sourceTree = "<group>"; };
+		9E2D740E1776F227009B53D6 /* btn_wancheng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_wancheng.png; sourceTree = "<group>"; };
+		9E2D740F1776F227009B53D6 /* btn_wancheng@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_wancheng@2x.png"; sourceTree = "<group>"; };
+		9E2D74181776F2BD009B53D6 /* btn_back_leftBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back_leftBack.png; sourceTree = "<group>"; };
+		9E2D74191776F2BD009B53D6 /* btn_back_leftBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back_leftBack@2x.png"; sourceTree = "<group>"; };
 		9E61171D17717BDA00E9F2B2 /* testClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E61172017717BDA00E9F2B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E61172217717BDA00E9F2B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +89,23 @@
 		9E61173217717BDA00E9F2B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9E61173417717BDA00E9F2B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9E61173617717BDA00E9F2B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E61173D17717D4100E9F2B2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9E61173E17717D4100E9F2B2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9E61173F17717D4100E9F2B2 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		9E6117421771805900E9F2B2 /* SetClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetClockViewController.h; sourceTree = "<group>"; };
+		9E6117431771805900E9F2B2 /* SetClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetClockViewController.m; sourceTree = "<group>"; };
+		9E6117441771805900E9F2B2 /* SetClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetClockViewController.xib; sourceTree = "<group>"; };
+		9E9B6BF21775C53500EA7319 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9E9B6BF31775C53500EA7319 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9E9B6BF41775C53500EA7319 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9E9B6BF51775C53500EA7319 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9E9B6BF61775C53500EA7319 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9E9B6BF71775C53500EA7319 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9E9B6BF81775C53500EA7319 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9E9B6BF91775C53500EA7319 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9E9B6BFA1775C53500EA7319 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9E9B6BFB1775C53500EA7319 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9E9B6C011775C55E00EA7319 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1210FD8C17BCB989002EE45B /* QuartzCore.framework in Frameworks */,
+				9E9B6C021775C55E00EA7319 /* libsqlite3.dylib in Frameworks */,
 				9E61172117717BDA00E9F2B2 /* UIKit.framework in Frameworks */,
 				9E61172317717BDA00E9F2B2 /* Foundation.framework in Frameworks */,
 				9E61172517717BDA00E9F2B2 /* CoreGraphics.framework in Frameworks */,
@@ -48,6 +124,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E2C0B91177434A700493AAA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D74071776F227009B53D6 /* 闹钟增加页面 */,
+				9E2C0B92177434B400493AAA /* btn_fanhui.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		9E2D74071776F227009B53D6 /* 闹钟增加页面 */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D74181776F2BD009B53D6 /* btn_back_leftBack.png */,
+				9E2D74191776F2BD009B53D6 /* btn_back_leftBack@2x.png */,
+				9E2D74081776F227009B53D6 /* btn_naozhong.png */,
+				9E2D74091776F227009B53D6 /* btn_naozhong@2x.png */,
+				9E2D740A1776F227009B53D6 /* btn_quxiao.png */,
+				9E2D740B1776F227009B53D6 /* btn_quxiao@2x.png */,
+				9E2D740C1776F227009B53D6 /* btn_tianjia.png */,
+				9E2D740D1776F227009B53D6 /* btn_tianjia@2x.png */,
+				9E2D740E1776F227009B53D6 /* btn_wancheng.png */,
+				9E2D740F1776F227009B53D6 /* btn_wancheng@2x.png */,
+			);
+			path = "闹钟增加页面";
+			sourceTree = "<group>";
+		};
 		9E61171417717BDA00E9F2B2 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +170,8 @@
 		9E61171F17717BDA00E9F2B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1210FD8B17BCB989002EE45B /* QuartzCore.framework */,
+				9E9B6C011775C55E00EA7319 /* libsqlite3.dylib */,
 				9E61172017717BDA00E9F2B2 /* UIKit.framework */,
 				9E61172217717BDA00E9F2B2 /* Foundation.framework */,
 				9E61172417717BDA00E9F2B2 /* CoreGraphics.framework */,
@@ -78,9 +182,31 @@
 		9E61172617717BDA00E9F2B2 /* testClock */ = {
 			isa = PBXGroup;
 			children = (
+				9E9B6BF11775C53500EA7319 /* FMDB */,
+				9E2C0B91177434A700493AAA /* img */,
 				9E61172F17717BDA00E9F2B2 /* AppDelegate.h */,
 				9E61173017717BDA00E9F2B2 /* AppDelegate.m */,
+				9E61173D17717D4100E9F2B2 /* RootViewController.h */,
+				9E61173E17717D4100E9F2B2 /* RootViewController.m */,
+				9E61173F17717D4100E9F2B2 /* RootViewController.xib */,
+				9E2D74041776E2BA009B53D6 /* RootCell.h */,
+				9E2D74051776E2BA009B53D6 /* RootCell.m */,
+				9E2D74011776CC56009B53D6 /* ClockModel.h */,
+				9E2D74021776CC57009B53D6 /* ClockModel.m */,
+				9E6117421771805900E9F2B2 /* SetClockViewController.h */,
+				9E6117431771805900E9F2B2 /* SetClockViewController.m */,
+				9E6117441771805900E9F2B2 /* SetClockViewController.xib */,
+				9E2C0B8C17741F3300493AAA /* RpeatViewController.h */,
+				9E2C0B8D17741F3300493AAA /* RpeatViewController.m */,
+				9E2C0B8E17741F3300493AAA /* RpeatViewController.xib */,
+				120EDB1F17C1A562008A918D /* OpenGL.pdf */,
+				1213097417C1EB2A009105F8 /* pptname1.ppt */,
 				9E61172717717BDA00E9F2B2 /* Supporting Files */,
+				120EDB1A17C1A51E008A918D /* WebViewController.h */,
+				120EDB1B17C1A51E008A918D /* WebViewController.m */,
+				120EDB1C17C1A51E008A918D /* WebViewController.xib */,
+				1214A29E17C35BC7008CE01D /* Utils.h */,
+				1214A29F17C35BC7008CE01D /* Utils.m */,
 			);
 			path = testClock;
 			sourceTree = "<group>";
@@ -97,6 +223,23 @@
 				9E61173617717BDA00E9F2B2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E9B6BF11775C53500EA7319 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9E9B6BF21775C53500EA7319 /* FMDatabase.h */,
+				9E9B6BF31775C53500EA7319 /* FMDatabase.m */,
+				9E9B6BF41775C53500EA7319 /* FMDatabaseAdditions.h */,
+				9E9B6BF51775C53500EA7319 /* FMDatabaseAdditions.m */,
+				9E9B6BF61775C53500EA7319 /* FMDatabasePool.h */,
+				9E9B6BF71775C53500EA7319 /* FMDatabasePool.m */,
+				9E9B6BF81775C53500EA7319 /* FMDatabaseQueue.h */,
+				9E9B6BF91775C53500EA7319 /* FMDatabaseQueue.m */,
+				9E9B6BFA1775C53500EA7319 /* FMResultSet.h */,
+				9E9B6BFB1775C53500EA7319 /* FMResultSet.m */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +297,23 @@
 				9E61173317717BDA00E9F2B2 /* Default.png in Resources */,
 				9E61173517717BDA00E9F2B2 /* Default@2x.png in Resources */,
 				9E61173717717BDA00E9F2B2 /* Default-568h@2x.png in Resources */,
+				9E61174117717D4100E9F2B2 /* RootViewController.xib in Resources */,
+				9E6117461771805900E9F2B2 /* SetClockViewController.xib in Resources */,
+				9E2C0B9017741F3300493AAA /* RpeatViewController.xib in Resources */,
+				9E2C0B93177434B400493AAA /* btn_fanhui.png in Resources */,
+				9E2D74101776F227009B53D6 /* btn_naozhong.png in Resources */,
+				9E2D74111776F227009B53D6 /* btn_naozhong@2x.png in Resources */,
+				9E2D74121776F227009B53D6 /* btn_quxiao.png in Resources */,
+				9E2D74131776F227009B53D6 /* btn_quxiao@2x.png in Resources */,
+				9E2D74141776F227009B53D6 /* btn_tianjia.png in Resources */,
+				9E2D74151776F227009B53D6 /* btn_tianjia@2x.png in Resources */,
+				9E2D74161776F227009B53D6 /* btn_wancheng.png in Resources */,
+				9E2D74171776F227009B53D6 /* btn_wancheng@2x.png in Resources */,
+				9E2D741A1776F2BD009B53D6 /* btn_back_leftBack.png in Resources */,
+				9E2D741B1776F2BD009B53D6 /* btn_back_leftBack@2x.png in Resources */,
+				120EDB1E17C1A51E008A918D /* WebViewController.xib in Resources */,
+				120EDB2017C1A562008A918D /* OpenGL.pdf in Resources */,
+				1213097517C1EB2A009105F8 /* pptname1.ppt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +326,18 @@
 			files = (
 				9E61172D17717BDA00E9F2B2 /* main.m in Sources */,
 				9E61173117717BDA00E9F2B2 /* AppDelegate.m in Sources */,
+				9E61174017717D4100E9F2B2 /* RootViewController.m in Sources */,
+				9E6117451771805900E9F2B2 /* SetClockViewController.m in Sources */,
+				9E2C0B8F17741F3300493AAA /* RpeatViewController.m in Sources */,
+				9E9B6BFC1775C53500EA7319 /* FMDatabase.m in Sources */,
+				9E9B6BFD1775C53500EA7319 /* FMDatabaseAdditions.m in Sources */,
+				9E9B6BFE1775C53500EA7319 /* FMDatabasePool.m in Sources */,
+				9E9B6BFF1775C53500EA7319 /* FMDatabaseQueue.m in Sources */,
+				9E9B6C001775C53500EA7319 /* FMResultSet.m in Sources */,
+				9E2D74031776CC57009B53D6 /* ClockModel.m in Sources */,
+				9E2D74061776E2BA009B53D6 /* RootCell.m in Sources */,
+				120EDB1D17C1A51E008A918D /* WebViewController.m in Sources */,
+				1214A2A017C35BC7008CE01D /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +366,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ç äº® (7MEP5D8XMN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ç äº® (7MEP5D8XMN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -209,6 +382,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4FA8926B-9EF4-4DBA-A54F-57807DA498F3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4FA8926B-9EF4-4DBA-A54F-57807DA498F3";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -224,7 +399,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ç äº® (7MEP5D8XMN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ç äº® (7MEP5D8XMN)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -232,6 +408,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4FA8926B-9EF4-4DBA-A54F-57807DA498F3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4FA8926B-9EF4-4DBA-A54F-57807DA498F3";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -243,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testClock/testClock-Prefix.pch";
 				INFOPLIST_FILE = "testClock/testClock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testClock/testClock-Prefix.pch";
 				INFOPLIST_FILE = "testClock/testClock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +458,7 @@
 				9E61173C17717BDA00E9F2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
